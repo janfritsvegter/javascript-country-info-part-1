@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap";
 *,
 *::before,
 *::after {
@@ -5,22 +6,23 @@
     padding: 0;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Gochi+Hand&display=swap');
-
 main {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 .title{
     font-family: "Gochi Hand","Abyssinica SIL";
     font-size: 50pt;
     text-align: center;
     margin-top: 25px;
 }
+
 p{
     font-family: Arial;
     font-size: 12pt;
 }
+
 ul {
     list-style-type: none;
 }
@@ -67,7 +69,9 @@ li {
 .dark-green {
     color: #488447;
 }
+
 /*   */
+
 .red {
     color: #d54858;
 }
@@ -83,3 +87,5 @@ li {
 .black {
     color: black;
 }
+
+/*# sourceMappingURL=index.be5cf2f4.css.map */
