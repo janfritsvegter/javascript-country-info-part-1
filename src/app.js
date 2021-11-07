@@ -10,7 +10,9 @@ async function getData() {
         // sorteren van de data
         sortArrayLowHigh(result.data, "population", "low-high");
 
-        injectInnerHtml(result.data,"countries-list")
+        // Het injecteren van nde data met inner Html
+        injectInnerHtml(result.data,"countries-list");
+
     } catch (e) {
         console.error(e);
     }
